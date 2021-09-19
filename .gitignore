@@ -1,0 +1,5 @@
+dijkstra/
+*.pdf
+**/.idea/
+**/.idea/
+**/cmake-build-debug/
