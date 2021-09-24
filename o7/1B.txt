@@ -1,0 +1,19 @@
+oppgave 1B)
+
+
+5 - 3 - fraction1 - 7 - fraction2
+
+
+- er venstreassosiativ, så 5 -3 blir gjennomført først, her er det den vanlige - operatoren fra int som brukes
+
+
+3 - fraction1, her så er ikke første objekt et medlem av klassen Fraction, så den tolkes som "Fraction operator-(int integer, const Fraction &other);", det er altså ikke-medlemsfunk­sjonen som blir brukt
+
+
+fraction1 - 7, her er første objekt et Fraction objekt, som vil si at det er medlemssfunksjonen til Fraction som kalles, dvs "Fraction operator-(int integer) const;"
+
+
+
+7 - fraction2, siden returtypen fra forrige operasjon vil være et Fraction-objekt så kalles nok en medlemssfunksjon, men denne gangen er det en brøk som er parameter, det vil si at det er metoden "Fraction operator-(const Fraction &other) const;" som kalles
+
+
