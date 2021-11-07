@@ -32,7 +32,8 @@ Set Set::operator+=(int other) {
 }
 
 Set Set::operator+=(Set &other) {
-    return *this + other;
+    *this = *this + other;
+    return *this;
 }
 
 Set operator+(int integer, Set &set) {

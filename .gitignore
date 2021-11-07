@@ -3,3 +3,5 @@ dijkstra/
 **/.idea/
 **/.idea/
 **/cmake-build-debug/
+*.swp
+*.gz
